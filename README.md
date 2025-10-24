@@ -71,9 +71,11 @@ After clicking the button, if all has gone well, you'll notice a few things chan
 
 ![image](images/ACompiledScript.png "A compiled script")
 
+All of these are signs that Script Editor was able to successfully compile the script -- that is, it understands what should happen when the script is run.
+
 Now it is time to run the script.
 
-Tap the run button in the toolbar.  That's the triangle next to the "Compile" button. When the script runs, it communicates with the "Sinterapt" application and asks it how many documents it currently has open.  "Sinterapt" responds and the result is displayed in the bottom half of the Script Editor window.  If you've been following along and have already opened a .pos file, the answer should be 1, or more if you've opened more than 1.
+Tap the run button in the toolbar.  That's the triangle next to the "Compile" button. When the script runs, it communicates with the "Sinterapt" application and asks it how many documents it currently has open.  "Sinterapt" responds and the result is displayed in the bottom half of the Script Editor window.  If you've been following along and have already opened a .pos file, the answer should be 1, or more if you've opened more than one .pos file.
 
 ![image](images/AScriptWithAResult.png "A script with a result")
 
@@ -116,17 +118,19 @@ end tell
  
 After running this script, you'll notice a few things happend.
 
-The inspector window now tells us that there are two Mass Ranges and two atomtypes in the document.
+The inspector window now tells us that there are two Mass Ranges and two Atomtypes in the document.
 
-The graphics window now displays different colors for the different ions.
- 
+The graphics window now displays different colors for the different ions.  It should look something like:
+
+![image](images/SpinodalGraphicsWindowColors.png "The spinodal structure seen in the graphics window")
+
 The "result" of the script shown in the bottom of the Script Editor window will be something like 
 
 ```
 mass range id 28 of document id 15 of application "Sinterapt"
 ```   
 
-the script consisted of two lines, and the result shown only shows the result from the last command.  Because the command was "make new mass range ...", the result of that command is a reference to the mass range that was created.
+the script consisted of two lines, each of which was a different command. The result shown only shows the result from the last command.  Because the command was "make new mass range ...", the result of that command is a reference to the mass range that was created. 
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
