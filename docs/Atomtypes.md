@@ -1,5 +1,5 @@
-###previous topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)
+### previous topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)
 
-##Atomtypes
+## Atomtypes
 
-###next topic: [Cylinders and Concentration Profiles](docs/Cylinders.md)
+### next topic: [Cylinders and Concentration Profiles](docs/Cylinders.md)

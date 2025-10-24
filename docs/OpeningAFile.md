@@ -1,11 +1,11 @@
 
-##Opening a File
+## Opening a File
 
 After launching the app, Choose "Open" from the file menu and choose a file in the .pos format.  Alternatively, it is possible to double-click on a .pos file in the Finder -- it will open in Sinterapt if there are no other applications registered for .pos files.  The app only supports .pos files for now, but support for more formats is on the future feature list.
 
 When the file opens, two windows will appear, an inspector window which gives an overview of the objects identified in the file, and a graphics window which displays an ion/atom map.
 
-##The Inspector Window
+## The Inspector Window
 
 The inspector window looks like this:
 
@@ -17,7 +17,7 @@ The right side of the window can display a number of graphs or images, depending
 
 The buttons under the mass spectrum adjust the visible range of the mass spectrum.
 
-##The Graphics Window
+## The Graphics Window
 
 The graphics window looks like this:
 
@@ -31,4 +31,4 @@ After a bit of manipulation, the window may look like this:
 
 ![image](images/FileOpenGraphicsWindowAfterRotate.png "The Sinterapt Graphics Window")
 
-###Next Topic:   [Using the Scripting Interface](docs/TheScriptingInterface.md)
+### Next Topic:   [Using the Scripting Interface](docs/TheScriptingInterface.md)

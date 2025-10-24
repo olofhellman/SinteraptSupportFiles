@@ -1,7 +1,7 @@
-###previous topic: [Using the Scripting Interface](docs/TheScriptingInterface.md)
+### previous topic: [Using the Scripting Interface](docs/TheScriptingInterface.md)
 
 
-##Defining Mass Ranges
+## Defining Mass Ranges
 
 The FeCrSpinodal sample file provided with this repo is the output of a Spinodal decomposition simulation.  It only requires 2 mass ranges. Here's a script that defines them:
 
@@ -32,4 +32,4 @@ the script consisted of two lines, each of which was a different command. The re
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
-###next topic: [Atomtypes](docs/Atomtypes.md)
+### next topic: [Atomtypes](docs/Atomtypes.md)

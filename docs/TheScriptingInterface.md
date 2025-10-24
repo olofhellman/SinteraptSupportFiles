@@ -1,4 +1,4 @@
-###previous topic: [Opening a File](docs/OpeningAFile.md)
+### previous topic: [Opening a File](docs/OpeningAFile.md)
 
 ## Using the Scripting Interface
 
@@ -66,4 +66,4 @@ end
 
 If you successfully get the data you were expecting as results from these scripts, you are ready to define mass ranges
 
-###next topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)
+### next topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)
