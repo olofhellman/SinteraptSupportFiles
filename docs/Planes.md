@@ -35,7 +35,7 @@ The ions in the plane should now be highlighted in the graphics window:
 
 To see only the ions that are part of the selection, toggle the "Show Unselected Ions" button in the toolbar, highlighted here:
 
-![image](../images/ShowUnslectedIons.png "Show Unslected Ions Button")
+![image](../images/ShowUnselectedIons.png "Show Unslected Ions Button")
 
 
 
