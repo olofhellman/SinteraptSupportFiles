@@ -9,7 +9,7 @@ When the file opens, two windows will appear, an inspector window which gives an
 
 The inspector window looks like this:
 
-![image](images/FileOpenInspectorWindow.png "The Sinterapt Inspector Window")
+![image](../images/FileOpenInspectorWindow.png "The Sinterapt Inspector Window")
 
 The left side of the window shows an overview of the various objects identified in this document.  After opening a .pos file, there are no mass ranges or other geometrical objects defined, so only the ion count is something other than zero.
 
@@ -21,7 +21,7 @@ The buttons under the mass spectrum adjust the visible range of the mass spectru
 
 The graphics window looks like this:
 
-![image](images/FileOpenGraphicsWindow.png "The Sinterapt Graphics Window")
+![image](../images/FileOpenGraphicsWindow.png "The Sinterapt Graphics Window")
 
 Because there are no mass ranges defined or atomtypes defined, all the ions are displayed in gray.  All of the individual ions are displayed as single-pixel dots.
 
@@ -29,6 +29,6 @@ After clicking on the "rotate" button, clicking and dragging in the window will 
 
 After a bit of manipulation, the window may look like this:
 
-![image](images/FileOpenGraphicsWindowAfterRotate.png "The Sinterapt Graphics Window")
+![image](../images/FileOpenGraphicsWindowAfterRotate.png "The Sinterapt Graphics Window")
 
 #### Next Topic:  [Using the Scripting Interface](TheScriptingInterface.md)
