@@ -33,5 +33,19 @@ To put the data for any on the graphs on the system clipboard, click on the grap
 
 ![image](../images/DataPastedInExcel.png "After clicking in the graph, the graph data is on the clipboard and can be pasted into another app, like Excel.")
 
+Cylinders can be manipulated with the scripting interface.  To make a cylinder:
+
+```
+tell application "Sinterapt"
+	tell document 1
+		set thePosition to {0.0, 0.0, 50.0}
+		set theDirection to {1.0, 1.0, 0.0}
+		set theRadius to {20.0}
+		make new cylinder with properties {name:"Cyl Radius 20", position:thePosition, direction:theDirection, radius:theRadius}
+	end tell
+end tell
+```
+
+Note that using the scripting interface, more precise control is available over the geometry, and it is possible to supply a name as well, which will be used elsewhere in the UI, for example in the "Graph Focus" popup.
 
 #### previous topic: [Atomtypes](dAtomtypes.md)  next topic: [Planes and Planar Maps](Planes.md)
