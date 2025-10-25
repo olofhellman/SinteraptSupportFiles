@@ -1,8 +1,8 @@
-#### previous topic: [Atomtypes](dAtomtypes.md)  next topic: [Planes and Planar Maps](Planes.md)
+#### previous topic: [Working with Selections](WorkingWithSelections.md)  next topic: [Planes and Planar Maps](Planes.md)
 
 ## Cylinders
 
-Sinterapt can work with a number of geometrical objects, and the simplest of these is the cylinder.
+Sinterapt can work with a number of geometrical objects to specify a range of interest in a dataset, and the most simple of these is the cylinder.
 
 Geometrically, a cylinder is defined by a point in space, a direction parallel to the cylinder, and a radius.
 
@@ -48,4 +48,4 @@ end tell
 
 Note that using the scripting interface, more precise control is available over the geometry, and it is possible to supply a name as well, which will be used elsewhere in the UI, for example in the "Graph Focus" popup.
 
-#### previous topic: [Atomtypes](dAtomtypes.md)  next topic: [Planes and Planar Maps](Planes.md)
+#### previous topic: [Working with Selections](WorkingWithSelections.md)  next topic: [Planes and Planar Maps](Planes.md)
