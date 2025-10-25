@@ -1,4 +1,4 @@
-#### previous topic: [Atomtypes](dAtomtypes.md)  next topic: [Cylinders and Concentration Profiles](Cylinders.md)
+#### previous topic: [Atomtypes](Atomtypes.md)  next topic: [Cylinders and Concentration Profiles](Cylinders.md)
 
 ## The selection
 
@@ -23,4 +23,4 @@ If the shift and command keys are down, the ions inside the rectangle will be un
 
 Known issue:  The geometry of the selection rectangle is currently not lined up correctly with the view angle.
 
-#### previous topic: [Atomtypes](dAtomtypes.md)  next topic: [Cylinders and Concentration Profiles](Cylinders.md)
+#### previous topic: [Atomtypes](Atomtypes.md)  next topic: [Cylinders and Concentration Profiles](Cylinders.md)
