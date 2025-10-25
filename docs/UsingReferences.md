@@ -1,3 +1,3 @@
-### previous topic: [Scripting In Depth B: Scripts Menu](docs/ScriptsMenu.md)
+### previous topic: [Scripting In Depth B: Scripts Menu](ScriptsMenu.md)
 
-### next topic: [Scripting In Depth D: Communicating with Other Apps](docs/ScriptingOtherApps.md)
+### next topic: [Scripting In Depth D: Communicating with Other Apps](ScriptingOtherApps.md)

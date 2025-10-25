@@ -1,3 +1,3 @@
-### previous topic: [Planes and Planar Maps](docs/Planes.md)
+### previous topic: [Planes and Planar Maps](Planes.md)
 
-### next topic: [Isosurfaces and Proxigrams](docs/Isosurfaces.md)
+### next topic: [Isosurfaces and Proxigrams](Isosurfaces.md)

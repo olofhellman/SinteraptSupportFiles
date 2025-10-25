@@ -1,4 +1,4 @@
-### previous topic: [Using the Scripting Interface](docs/TheScriptingInterface.md)
+### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)
 
 
 ## Defining Mass Ranges
@@ -32,4 +32,4 @@ the script consisted of two lines, each of which was a different command. The re
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
-### next topic: [Atomtypes](docs/Atomtypes.md)
+### next topic: [Atomtypes](Atomtypes.md)

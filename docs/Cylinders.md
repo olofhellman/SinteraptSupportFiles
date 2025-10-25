@@ -1,3 +1,3 @@
-### previous topic: [Atomtypes](docs/Atomtypes.md)
+### previous topic: [Atomtypes](dAtomtypes.md)
 
-### next topic: [Planes and Planar Maps](docs/Planes.md)
+### next topic: [Planes and Planar Maps](Planes.md)

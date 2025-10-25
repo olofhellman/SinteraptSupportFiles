@@ -31,4 +31,4 @@ After a bit of manipulation, the window may look like this:
 
 ![image](images/FileOpenGraphicsWindowAfterRotate.png "The Sinterapt Graphics Window")
 
-### Next Topic:   [Using the Scripting Interface](docs/TheScriptingInterface.md)
+### Next Topic:   [Using the Scripting Interface](TheScriptingInterface.md)

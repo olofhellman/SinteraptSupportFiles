@@ -1,4 +1,4 @@
-#### previous topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)    next topic: [Cylinders and Concentration Profiles](docs/Cylinders.md)
+#### previous topic: [Defining Mass Ranges](DefiningMassRanges.md)    next topic: [Cylinders and Concentration Profiles](Cylinders.md)
 
 ## Atomtypes
 
@@ -17,4 +17,4 @@ tell application "Sinterapt"
 end tell
 ```
 
-#### previous topic: [Defining Mass Ranges](docs/DefiningMassRanges.md)    next topic: [Cylinders and Concentration Profiles](docs/Cylinders.md)
+#### previous topic: [Defining Mass Ranges](DefiningMassRanges.md)    next topic: [Cylinders and Concentration Profiles](Cylinders.md)

@@ -1,3 +1,3 @@
-### previous topic: [ConcentrationSpaces](docs/ConcentrationSpaces.md)
+### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md)
 
-### next topic: [Exporting Movies](docs/Movies.md)
+### next topic: [Exporting Movies](Movies.md)
