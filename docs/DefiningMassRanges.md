@@ -1,4 +1,4 @@
-### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)
+#### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)  next topic: [Atomtypes](Atomtypes.md)
 
 
 ## Defining Mass Ranges
@@ -20,7 +20,7 @@ The inspector window now tells us that there are two Mass Ranges and two Atomtyp
 
 The graphics window now displays different colors for the different ions.  It should look something like:
 
-![image](images/SpinodalGraphicsWindowColors.png "The spinodal structure seen in the graphics window")
+![image](../images/SpinodalGraphicsWindowColors.png "The spinodal structure seen in the graphics window")
 
 The "result" of the script shown in the bottom of the Script Editor window will be something like 
 
@@ -32,4 +32,4 @@ the script consisted of two lines, each of which was a different command. The re
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
-### next topic: [Atomtypes](Atomtypes.md)
+#### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)  next topic: [Atomtypes](Atomtypes.md)
