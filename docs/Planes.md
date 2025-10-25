@@ -19,7 +19,7 @@ tell application "Sinterapt"
 end tell   
 ```
 
-Now, the is a plane, but Sinterapt doesn't yet have a good way to show the plane (its on its way).  However, the plane can be used as a way to set the selection of the document (each ion has a "selected" property).  Use the following script to set the selection to all the ions in the bounds of the plane that you just made:
+Now, the is a plane, but Sinterapt doesn't yet have a good way to show the plane (this feature is coming).  However, the plane can be used as a way to set the selection of the document (each ion has a "selected" property).  Use the following script to set the selection to all the ions in the bounds of the plane that you just made:
 
 ```
 tell application "Sinterapt"
