@@ -1,7 +1,9 @@
 
 ## Opening a File
 
-After launching the app, Choose "Open" from the file menu and choose a file in the .pos format.  Alternatively, it is possible to double-click on a .pos file in the Finder -- it will open in Sinterapt if there are no other applications registered for .pos files.  The app only supports .pos files for now, but support for more formats is on the future feature list.
+After launching the app, Choose "Open" from the file menu and choose a file in either the .pos or .apt formats.  Alternatively, it is possible to double-click on a .pos or .apt file in the Finder -- it will open in Sinterapt if there are no other applications registered for that file type.  
+
+The app only supports .pos and .apt files for now. Additionally, the support for .apt only imports mass and position data -- if the .apt file contains other sections (for example, for voltage information), those sections are ignored.  
 
 When the file opens, two windows will appear, an inspector window which gives an overview of the objects identified in the file, and a graphics window which displays an ion/atom map.
 
