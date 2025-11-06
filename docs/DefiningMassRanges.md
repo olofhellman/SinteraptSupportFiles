@@ -32,4 +32,43 @@ the script consisted of two lines, each of which was a different command. The re
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
+## RRNG files
+
+Support for applying RRNG files is in the pipeline.  In the meantime, running scripts is the only way to define mass ranges.  However, the script can be made a bit less awkward by condensing the importasnt information into a list, and then iterating through.  Here;'s an exaple:
+
+```
+set massRangeDataList to {¬
+	{13.454, 13.778, "Al"}, ¬
+	{26.897, 27.561, "Al"}, ¬
+	{27.847, 28.796, "Fe"}, ¬
+	{53.802, 54.286, "Fe"}, ¬
+	{55.761, 57.501, "Fe"}, ¬
+	{29.382, 29.884, "Co"}, ¬
+	{58.822, 59.593, "Co"}, ¬
+	{28.904, 29.243, "Ni"}, ¬
+	{29.93, 30.038, "Ni"}, ¬
+	{30.432, 30.548, "Ni"}, ¬
+	{30.918, 31.103, "Ni"}, ¬
+	{31.914, 32.076, "Ni"}, ¬
+	{57.787, 58.646, "Ni"}, ¬
+	{59.813, 62.587, "Ni"}, ¬
+	{63.82, 64.238, "Ni"}, ¬
+	{25.932, 26.067, "Cr"}, ¬
+	{51.887, 52.086, "Cr"}}
+
+
+repeat with mrd in massRangeDataList
+	set ll to item 1 of mrd
+	set ul to item 2 of mrd
+	set atomname to item 3 of mrd
+	tell application "Sinterapt"
+		tell document 1
+			make new mass range with properties {lower bound:ll, upper bound:ul, atom list:{atomname}}
+		end tell
+	end tell
+end repeat
+```
+
+In this script, note the use of the  ¬  character, which is used in AppleScript to continue the line around a line break, which makes working with lists a little easier.
+
 #### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)  next topic: [Atomtypes](Atomtypes.md)
