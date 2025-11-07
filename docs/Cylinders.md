@@ -29,9 +29,9 @@ It is also possible to view just a mass spectrum for ions within the bounds of t
 
 ![image](../images/CylinderMassSpectrum.png "The cylinder mass spectrum is available when graph focus is set to the cylinder")
 
-To put the data for any on the graphs on the system clipboard, click on the graph (in the future, this will change to a contextual menu). The data can then be pasted in another app, for example, Excel:
+To put the data for any on the graphs on the system clipboard, option click on the graph to reveal a contextual menu. Choosing "Copy Data" puts the data on the clipboard, and which can then be pasted in another app, for example, Excel:
 
-![image](../images/DataPastedInExcel.png "After clicking in the graph, the graph data is on the clipboard and can be pasted into another app, like Excel.")
+![image](../images/DataPastedInExcel.png "After choosing Copy Data in the graph's contextual menu, the graph data is on the clipboard and can be pasted into another app, like Excel.")
 
 Cylinders can be manipulated with the scripting interface.  To make a cylinder:
 

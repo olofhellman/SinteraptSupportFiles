@@ -18,9 +18,11 @@ After running this script, you'll notice a few things happend.
 
 The inspector window now tells us that there are two Mass Ranges and two Atomtypes in the document.
 
-The graphics window now displays different colors for the different ions.  It should look something like:
+The graphics window now displays different colors for the different atoms.  It should look something like:
 
 ![image](../images/SpinodalGraphicsWindowColors.png "The spinodal structure seen in the graphics window")
+
+Note that the Sinterapt graphics window displays atoms, not ions. This is a distinction without a difference in the case that each ion corresponds to a single atom, but in the case where some ions are multiatomic, the graphics window displays the atoms separately.
 
 The "result" of the script shown in the bottom of the Script Editor window will be something like 
 
