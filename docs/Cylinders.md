@@ -29,6 +29,10 @@ It is also possible to view just a mass spectrum for ions within the bounds of t
 
 ![image](../images/CylinderMassSpectrum.png "The cylinder mass spectrum is available when graph focus is set to the cylinder")
 
+After choosing the cylinder in the "Graph Focus" popup, a UI element for controlling the cylinder radius should also appear in the inspector window:
+
+![image](../images/RadiusSlider.png "The slider to control the cylinder radius appears in the inspector window")
+
 To put the data for any on the graphs on the system clipboard, option click on the graph to reveal a contextual menu. Choosing "Copy Data" puts the data on the clipboard, and which can then be pasted in another app, for example, Excel:
 
 ![image](../images/DataPastedInExcel.png "After choosing Copy Data in the graph's contextual menu, the graph data is on the clipboard and can be pasted into another app, like Excel.")

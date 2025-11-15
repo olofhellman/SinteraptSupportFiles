@@ -34,9 +34,10 @@ the script consisted of two lines, each of which was a different command. The re
 
 You may notice, that even though there was no explicit command to make an atomtype, two atomtypes were created.  This is because each mass range implicitly contained a reference to an atomtype in its "atom list" property.  When a corresponding atom type cannot be found, it is created automatically
 
-## RRNG files
 
-Support for applying RRNG files is in the pipeline.  In the meantime, running scripts is the only way to define mass ranges.  However, the script can be made a bit less awkward by condensing the importasnt information into a list, and then iterating through.  Here;'s an exaple:
+## Concise script for defining mass ranges
+
+ A script for defining mass ranges can be made a bit less awkward by condensing the important information into a list, and then iterating through.  Here's an example:
 
 ```
 set massRangeDataList to {¬
@@ -72,5 +73,23 @@ end repeat
 ```
 
 In this script, note the use of the  ¬  character, which is used in AppleScript to continue the line around a line break, which makes working with lists a little easier.
+
+
+## RRNG files
+
+Version 25.11.2 adds support for defining mass ranges by importing a .RRNG file. After loading reconstructed data, select the "Apply RRNG…" menu item from the edit menu.
+
+Note, however, there is a conflict between the object model implied by the structure of a RRNG file and the object model of Sinterapt.  In a .RRNG file, each range is assigned a Color.  However, in Sinterapt, mass ranges do not have a color of their own -- instead, each atomtype is assigned a color.
+
+This leads to a few different kinds of conflicts:
+
+In the case that two ranges map to the same atomtype, but each range specifies a different color, it is not obvious which color should be used for the atomtype.
+
+In the case that a range maps to two or more atoms, it is not obvious which atom should have a color specified using that range's color. if at all.
+
+In the case that a multiple range map multiple atoms, and specify different colors, there is no hope for any consistency in using the color information.
+
+As of version 25.11.2, the color information is not used at all.  A future version will selectively apply color information for single-atom ions. 
+
 
 #### previous topic: [Using the Scripting Interface](TheScriptingInterface.md)  next topic: [Atomtypes](Atomtypes.md)
