@@ -4,7 +4,13 @@
 
 Script Editor is a fairly simple app, but there are some features which are useful to know about:
 
+
 ### Recording
+
+Sinterapt supports a feature called AppleScript recording, but there is currently an issue where trying to record a script breaks almost everything in the application.
+
+So, please do not open a ScriptEditor document press the record button.  I am working to resolve this issue.
+
 
 ### App Dictionaries
 
