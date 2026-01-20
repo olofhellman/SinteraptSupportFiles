@@ -1,0 +1,14 @@
+[Ions]
+Number=2
+Ion1=Cr
+Ion2=Ni
+Ion3=Cu
+
+[Ranges]
+Number=5
+Range1=49.0000 55.0000 Vol:0.01108 Cr:1 Color:4FFF7F
+Range2=57.0000 62.6000 Vol:0.01177 Ni:1 Color:FF307F
+Range3=63.7000 64.6000 Vol:0.01177 Ni:1 Color:FF307F
+Range4=62.7000 63.6000 Vol:0.01177 Cu:1 Color:7F7FFF
+Range5=64.7000 66.6000 Vol:0.01177 Cu:1 Color:7F7FFF
+ 
