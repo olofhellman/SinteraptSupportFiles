@@ -27,10 +27,6 @@ The graphics window looks like this:
 
 Because there are no mass ranges defined or atomtypes defined, all the ions are displayed in gray.  All of the individual ions are displayed as single-pixel dots.
 
-After clicking on the "rotate" button, clicking and dragging in the window will allow rotation on the ionmap.  Clicking the "Zoom In" and "Zoom Out" buttons will adjust the magnification.  
-
-After a bit of manipulation, the window may look like this:
-
-![image](../images/FileOpenGraphicsWindowAfterRotate.png "The Sinterapt Graphics Window")
+See the next page for how to manipulate the view in the Graphics Window:
 
 #### Next Topic:  [Using the Scripting Interface](TheScriptingInterface.md)

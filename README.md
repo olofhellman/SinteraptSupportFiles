@@ -10,6 +10,7 @@ The contents of this repo are some sample data files in the data directory, some
 Here's a tour of some of the features of the app:  If you are new to the app, it is strongly recommended to start by going in order through the first three links, "Opening a File", "Using the Scripting Interface", and "Defining Mass Ranges". 
 
 - [Opening a File](docs/OpeningAFile.md)
+- [3D Visualization](docs/3DVisualization.md)
 - [Using the Scripting Interface](docs/TheScriptingInterface.md)
 - [Defining Mass Ranges](docs/DefiningMassRanges.md)
 - [Atomtypes](docs/Atomtypes.md)

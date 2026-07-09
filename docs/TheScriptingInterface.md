@@ -1,4 +1,4 @@
-#### previous topic: [Opening a File](OpeningAFile.md)  next topic: [Defining Mass Ranges](DefiningMassRanges.md)
+#### previous topic: [3D Visualization](docs/3DVisualization.md)  next topic: [Defining Mass Ranges](DefiningMassRanges.md)
 
 ## Using the Scripting Interface
 
@@ -66,4 +66,4 @@ end
 
 If you successfully get the data you were expecting as results from these scripts, you are ready to define mass ranges
 
-#### previous topic: [Opening a File](OpeningAFile.md)   next topic: [Defining Mass Ranges](DefiningMassRanges.md)
+#### previous topic: [3D Visualization](docs/3DVisualization.md)   next topic: [Defining Mass Ranges](DefiningMassRanges.md)
