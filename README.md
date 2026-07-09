@@ -17,6 +17,7 @@ Here's a tour of some of the features of the app:  If you are new to the app, it
 - [Planes and Planar Maps](docs/Planes.md)
 - [ConcentrationSpaces](docs/ConcentrationSpaces.md)
 - [Isosurfaces and Proxigrams](docs/Isosurfaces.md)
+- [Subsets](docs/Subsets.md)
 - [Exporting Movies](docs/Movies.md)
 - [Scripting In Depth A: Script Editor](docs/ScriptEditor.md)
 - [Scripting In Depth B: Scripts Menu](docs/ScriptsMenu.md)

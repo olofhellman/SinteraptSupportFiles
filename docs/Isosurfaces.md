@@ -1,4 +1,4 @@
-#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md)   next topic: [Exporting Movies](Movies.md)
+#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md)   next topic: [Subsets](docs/Subsets.md)
 
 ## Isosurface
 
@@ -47,4 +47,4 @@ Note:  Calculation of a proxigram takes a lot of time.  Be patient.  I'm working
 
 
 
-#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md) next topic: [Exporting Movies](Movies.md)
+#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md) next topic: [Subsets](docs/Subsets.md)
