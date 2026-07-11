@@ -19,6 +19,7 @@ Here's a tour of some of the features of the app:  If you are new to the app, it
 - [ConcentrationSpaces](docs/ConcentrationSpaces.md)
 - [Isosurfaces and Proxigrams](docs/Isosurfaces.md)
 - [Subsets](docs/Subsets.md)
+- [Graphics Controls](docs/GraphicsControls.md)
 - [Exporting Movies](docs/Movies.md)
 - [Scripting In Depth A: Script Editor](docs/ScriptEditor.md)
 - [Scripting In Depth B: Scripts Menu](docs/ScriptsMenu.md)

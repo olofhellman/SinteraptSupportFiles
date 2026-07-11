@@ -1,4 +1,4 @@
-#### previous topic: [Isosurfaces and Proxigrams](docs/Isosurfaces.md)   next topic: [Exporting Movies](Movies.md)
+#### previous topic: [Isosurfaces and Proxigrams](docs/Isosurfaces.md)   next topic: [Graphics Controls](docs/GraphicsControls.md)
 
 ## Subset
 
@@ -31,4 +31,4 @@ tell application "Sinterapt"
 	end tell
 end tell```
 
-#### previous topic: [Isosurfaces and Proxigrams](docs/Isosurfaces.md) next topic: [Exporting Movies](Movies.md)
+#### previous topic: [Isosurfaces and Proxigrams](docs/Isosurfaces.md) next topic: [Graphics Controls](docs/GraphicsControls.md)
