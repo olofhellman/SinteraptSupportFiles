@@ -89,6 +89,20 @@ end tell
 ```
 
 The parameter supplied for *along x axis*, *along y axis* and *along z axis* is in units of nanometers.
+
+
+### Text Annotation
+
+A text annotation can be displayed in the upper left of the window. Use a script like the following to place text there:
+
+```
+set userResponse to display dialog "Please enter your annotation text:" default answer "Your text here"
+set newAnnotation to text returned of userResponse
+
+tell application "Sinterapt"
+	set annotation of graphics window 1 of document 1 to newAnnotation
+end tell
+```
  
 #### previous topic: [Graphics Controls](GraphicsControls.md)   next topic: [Exporting Movies](Movies.md)
 
