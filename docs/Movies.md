@@ -1,4 +1,4 @@
-#### previous topic: [Subsets](docs/Subsets.md)  next topic: [Scripting In Depth A: Script Editor](ScriptEditor.md)
+#### previous topic: [Graphics Windows](GraphicsWindows.md)  next topic: [Scripting In Depth A: Script Editor](ScriptEditor.md)
 
 
 ## Movies
@@ -67,4 +67,4 @@ Known issues:
 A) The colors in saved movies look washed out.  This seems to be a color space issue -- I am aware of it.
 B) The app will crash if the script is run a second time -- i.e. when trying to save a second movie.  I hope to fix this one soon.
 
-#### previous topic: [[Subsets](docs/Subsets.md)   next topic: [Scripting In Depth A: Script Editor](ScriptEditor.md)
+#### previous topic: [Graphics Windows](GraphicsWindows.md)   next topic: [Scripting In Depth A: Script Editor](ScriptEditor.md)

@@ -1,4 +1,4 @@
-#### previous topic: [Subsets](docs/Subsets.md)   next topic: [Exporting Movies](Movies.md)
+#### previous topic: [Subsets](Subsets.md)   next topic: [GraphicsWindow](GraphicsWindow.md)
 
 ## Graphics Controls
 
@@ -25,7 +25,7 @@ This image shows a sample where the only ions shown are those within both the cy
 
 ![image](../images/DrawGeometriesMenu.png "A popup showing all the hideable objects")
 
-Atom Display Menu
+### Atom Display Menu
 
 Lastly, the Atom Display toolbar menu allows control over which types of atoms are displayed.  
 
@@ -35,4 +35,4 @@ This image shows the state of a sampel where only the minority species is shown,
 ![image](../images/AtomDisplayMenu.png "A popup each atom type which can be shown or hidden")
 
 
-#### previous topic: [Subsets](docs/Subsets.md) next topic: [Exporting Movies](Movies.md)
+#### previous topic: [Subsets](Subsets.md) next topic: [GraphicsWindow](GraphicsWindow.md)
