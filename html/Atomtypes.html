@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Atomtypes</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h4 id="toc_0">previous topic: <a href="DefiningMassRanges.html">Defining Mass Ranges</a>    next topic: <a href="WorkingWithSelections.html">Working with Selections</a></h4>
+
+<h2 id="toc_1">Atomtypes</h2>
+
+<p>You may not like the default colors set for atomtypes.  here&#39;s how to set new colors:</p>
+
+<p>Each atomtype has a property called &quot;color&quot; </p>
+
+<p>A color is composed of a red component, a green component, and a blue component, each of which ranges from 0 to 1.  a color of all 0.0 is black.  A color of all 1.0 is white.</p>
+
+<p>Here&#39;s a script which makes the &quot;fe&quot; atomtype an appropriate Iron-ish red:</p>
+
+<div><pre><code class="language-none">tell application &quot;Sinterapt&quot;
+    set theColor to {red component:1.0, green component:0.4, blue component:0.4}
+    set the color of atomtype &quot;Fe&quot; of document 1 to theColor
+end tell</code></pre></div>
+
+<h4 id="toc_2">previous topic: <a href="DefiningMassRanges.html">Defining Mass Ranges</a>    next topic: <a href="WorkingWithSelections.html">Working with Selections</a></h4>
+
+</body>
+</html> 

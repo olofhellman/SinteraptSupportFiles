@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h4 id="toc_0">previous topic: <a href="GraphicsWindows.html">Graphics Windows</a>  next topic: <a href="ScriptEditor.html">Scripting In Depth A: Script Editor</a></h4>
+
+<h2 id="toc_1">Movies</h2>
+
+<p>Sinterapt supports exporting a sequence of images taken from a graphics window as a QuickTime movie -- the .mov format</p>
+
+<p>This is accomplished using the scripting interface.  There are three basic commands.</p>
+
+<p>To start filming a movie, tell the graphics window to &quot;start filming&quot;</p>
+
+<p>To record a frame of the movie, tell the graphics window to &quot;record movie frame&quot;</p>
+
+<p>To stop filming a movie, tell the graphics window to &quot;stop filming&quot;</p>
+
+<p>To make the movie interesting, some action can take place between each frame.  Here&#39;s a script that records a movie while rotating the view and slowing zooming in</p>
+
+<div><pre><code class="language-none">tell application &quot;System Events&quot;
+    set thepath to get path to documents folder
+end tell
+tell application &quot;Sinterapt&quot;
+    set mag to get magnification of graphics window 1 of document 1
+    tell graphics window 1 of document 1
+        start filming
+        repeat 100 times
+            record movie frame
+            rotate axially 0.2 vertically 0.5
+            set mag to mag * 1.01
+            set magnification to mag
+            delay 0.5
+        end repeat
+        stop filming saving in POSIX file thepath
+    end tell
+end tell</code></pre></div>
+
+<p>You&#39;ll notice a few interesting things about this script:</p>
+
+<h3 id="toc_2">The location of the saved file</h3>
+
+<p>when we issue the &quot;stop filming&quot; command, we also supply a parameter for &quot;saving in&quot; so as to tell the app where the completed movie should be saved.  In this case, we want the file saved in the documents folder.</p>
+
+<p>To get the path to the documents folder, the script uses another application, &quot;System Events&quot; which knows about such things.</p>
+
+<p>However, if this script is run, the file may not actually be saved in the Documents folder, because of the file permissions protections of macOS.  If the &quot;app sandbox&quot; is enabled, the app doesn&#39;t actually have permissions to write to your Documents folder, so the file is saved instead inside its &quot;container&quot;</p>
+
+<p><img src="images/SaveMovieResults.png" alt="image" title="The result of saving a movie with the app sandbox"></p>
+
+<p>In the above image, the result of the script points to the actual location of the saved file in the app sandbox.  Interestingly, although the script points to a file at the path </p>
+
+<div><pre><code class="language-none">&quot;Macintosh HD:Users:&lt;username&gt;:Library:Containers:com.tomographic.sinterapt:Data:Documents:10-25-2025, 12/46 AM-iB1C.mov&quot;</code></pre></div>
+
+<p>you will not find this path looking in the Finder.  Instead, inside the ~Users/<username>/Library/Containers folder there will be a folder called &quot;Sinterapt&quot;</p>
+
+<h3 id="toc_3">The rotate command</h3>
+
+<p>Graphics windows respond to a &quot;rotate&quot; command.  rotation can be applied axially, vertically and horizontally. The parameter supplied is in units of degrees.</p>
+
+<h3 id="toc_4">The delay command</h3>
+
+<p>When filming a sequence, it is sometimes useful to pause for a bit to let the app catch up before proceeding.  In this case, some drawing commands can be done asynchronously, so that the app can continue working while a drawing operation is in progress.  Without the delay, it is possible the app will already be trying to apply the next rotation before the previous one is finished, and in this case, it is uncertain which view will be captured when a movie frame is recorded. </p>
+
+<p>Known issues:
+A) The colors in saved movies look washed out.  This seems to be a color space issue -- I am aware of it.
+B) The app will crash if the script is run a second time -- i.e. when trying to save a second movie.  I hope to fix this one soon.</p>
+
+<h4 id="toc_5">previous topic: <a href="GraphicsWindows.html">Graphics Windows</a>   next topic: <a href="ScriptEditor.html">Scripting In Depth A: Script Editor</a></h4>
+
+</body>
+</html> 
