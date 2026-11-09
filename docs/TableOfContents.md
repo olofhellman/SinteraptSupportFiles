@@ -7,18 +7,19 @@ If you are new to the app, it is strongly recommended to start by going in order
 <h3>Table of Contents</h3>
 
 - [Opening a File](OpeningAFile.md)
+- [3D Visualization](3DVisualization.md)
 - [Using the Scripting Interface](TheScriptingInterface.md)
 - [Defining Mass Ranges](DefiningMassRanges.md)
 - [Atomtypes](Atomtypes.md)
 - [Cylinders and Concentration Profiles](Cylinders.md)
 - [Planes and Planar Maps](Planes.md)
-- [ConcentrationSpaces](ConcentrationSpaces.md)
+- [Grids](Grids.md)
 - [Isosurfaces and Proxigrams](Isosurfaces.md)
+- [Subsets](Subsets.md)
+- [Graphics Controls](GraphicsControls.md)
 - [Exporting Movies](Movies.md)
 - [Scripting In Depth A: Script Editor](ScriptEditor.md)
 - [Scripting In Depth B: Scripts Menu](ScriptsMenu.md)
 - [Scripting In Depth C: References](UsingReferences.md)
 - [Scripting In Depth D: Communicating with Other Apps](ScriptingOtherApps.md)
  
-
-

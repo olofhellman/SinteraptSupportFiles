@@ -16,7 +16,7 @@ Here's a tour of some of the features of the app:  If you are new to the app, it
 - [Atomtypes](docs/Atomtypes.md)
 - [Cylinders and Concentration Profiles](docs/Cylinders.md)
 - [Planes and Planar Maps](docs/Planes.md)
-- [ConcentrationSpaces](docs/ConcentrationSpaces.md)
+- [Grids](docs/Grids.md)
 - [Isosurfaces and Proxigrams](docs/Isosurfaces.md)
 - [Subsets](docs/Subsets.md)
 - [Graphics Controls](docs/GraphicsControls.md)
@@ -26,5 +26,3 @@ Here's a tour of some of the features of the app:  If you are new to the app, it
 - [Scripting In Depth C: References](docs/UsingReferences.md)
 - [Scripting In Depth D: Communicating with Other Apps](docs/ScriptingOtherApps.md)
  
-
-

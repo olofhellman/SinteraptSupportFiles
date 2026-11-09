@@ -14,6 +14,6 @@ tell application "Sinterapt"
 	set offsetVec to {offx, offy, offz}
 	
 	tell document 1
-		set cs to make new concentration space with properties {name: "CSpace20", cell length:celllength, dimensions:dims, offset:offsetVec, delocalization distance:delocalization}
+		set cs to make new grid with properties {name: "Grid20", cell length:celllength, dimensions:dims, offset:offsetVec, delocalization distance:delocalization}
 	end tell
 end tell

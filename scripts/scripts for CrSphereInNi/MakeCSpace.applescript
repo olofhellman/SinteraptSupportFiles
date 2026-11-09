@@ -1,5 +1,5 @@
 
-to makeCSpace()
+to makeGrid()
 	tell application "Sinterapt"
 		
 		set boxProps to properties of box of document 1
@@ -14,9 +14,9 @@ to makeCSpace()
 		set offz to (minimum z of boxProps) - (cellLength * 0.5)
 		set offsetVec to {offx, offy, offz}
 		
-		make new concentration space in document 1 with properties {name:"cspace 625", cell length:cellLength, offset:offsetVec, griddims:dims, delocalization distance:cellLength * 0.5}
+		make new grid in document 1 with properties {name:"grid 625", cell length:cellLength, offset:offsetVec, griddims:dims, delocalization distance:cellLength * 0.5}
 	end tell
-end makeCSpace
+end makeGrid
 
 
-my makeCSpace()
+my makeGrid()

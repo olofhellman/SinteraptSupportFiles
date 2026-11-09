@@ -1,4 +1,4 @@
-#### previous topic: [Cylinders and Concentration Profiles](Cylinders.md)
+#### previous topic: [Cylinders and Concentration Profiles](Cylinders.md) next topic: [Grids](Grids.md)
 
 ## Planes
 
@@ -40,4 +40,4 @@ To see only the ions that are part of the selection, toggle the "Show Unselected
 
 
 
-#### next topic: [ConcentrationSpaces](ConcentrationSpaces.md)
+#### previous topic: [Cylinders and Concentration Profiles](Cylinders.md)  next topic: [Grids](Grids.md)

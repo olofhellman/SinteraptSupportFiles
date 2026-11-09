@@ -1,8 +1,8 @@
-#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md)   next topic: [Subsets](docs/Subsets.md)
+#### previous topic: [Grids](Grids.md)   next topic: [Subsets](Subsets.md)
 
 ## Isosurface
 
-Each isosurface is defined with respect to a concentration space. So, when creating an isosurface, you'll first need to create a concentration space to use as a reference.
+Each isosurface is defined with respect to a grid. So, when creating an isosurface, you'll first need to create a grid to use as a reference.
 
 The other parameters needed are:
 
@@ -18,18 +18,18 @@ If there are more than one item in the list, for example {"Ga", "In"}, this indi
 
 This parameter is useful for suppressing noise at the edges of a sample, where the populations of the gridpoints are low.
 
-- concentration space:  This parameter is supplied as a reference. See [Scripting In Depth C: References](UsingReferences.md) for details.
+- grid:  This parameter is supplied as a reference. See [Scripting In Depth C: References](UsingReferences.md) for details.
 
-Here's a script which creates an isosurface, assuming that the given concentration space has already been created:
+Here's a script which creates an isosurface, assuming that the given grid has already been created:
 
 ```
 tell application "Sinterapt"
-	if exists concentration space "CSpace20" of document 1 then
+	if exists grid "Grid20" of document 1 then
 		
-		set theCSpace to concentration space "CSpace20" of document 1
-		make new isosurface in document 1 with properties {name:"Cr50", confidence:1.0, threshold:0.5, atomnames:{"Cr"}, concentration space:theCSpace}
+		set theCSpace to grid "Grid20" of document 1
+		make new isosurface in document 1 with properties {name:"Cr50", confidence:1.0, threshold:0.5, atomnames:{"Cr"}, grid:theCSpace}
 	else
-		display dialog "there is no concentration space named \"CSpace20\""
+		display dialog "there is no grid named \"Grid20\""
 	end if
 end tell
 ```
@@ -47,4 +47,4 @@ Note:  Calculation of a proxigram takes a lot of time.  Be patient.  I'm working
 
 
 
-#### previous topic: [ConcentrationSpaces](ConcentrationSpaces.md) next topic: [Subsets](docs/Subsets.md)
+#### previous topic: [ConcentrationGrids](ConcentrationGrids.md) next topic: [Subsets](Subsets.md)
