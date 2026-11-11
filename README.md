@@ -18,6 +18,7 @@ Here's a tour of some of the features of the app:  If you are new to the app, it
 - [Planes and Planar Maps](docs/Planes.md)
 - [Grids](docs/Grids.md)
 - [Isosurfaces and Proxigrams](docs/Isosurfaces.md)
+- [Isosurface Ions](docs/IsosurfaceIons.md)
 - [Subsets](docs/Subsets.md)
 - [Graphics Controls](docs/GraphicsControls.md)
 - [Graphics Window](docs/GraphicsWindow.md)
