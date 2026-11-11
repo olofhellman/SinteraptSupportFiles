@@ -1,4 +1,4 @@
-#### previous topic: [Grids](Grids.md)   next topic: [Subsets](Subsets.md)
+#### previous topic: [Grids](Grids.md)   next topic: [Isosurface Ions](IsosurfaceIons.md)
 
 ## Isosurface
 
@@ -6,7 +6,7 @@ Each isosurface is defined with respect to a grid. So, when creating an isosurfa
 
 The other parameters needed are:
 
-name:  An optional parameter, but very useful as the name is displayed in other parts of the UI
+- name:  An optional parameter, but very useful as the name is displayed in other parts of the UI
 
 - atomnames:  This is a list of strings of element names, indicating which components are to be evaluated for the concentration.  Typically, the list contains one value.  For example, if the intention is to generate an isosurface for 50% Fe, the value of this parameter would be {"Fe"} . 
 
@@ -47,4 +47,4 @@ Note:  Calculation of a proxigram takes a lot of time.  Be patient.  I'm working
 
 
 
-#### previous topic: [ConcentrationGrids](ConcentrationGrids.md) next topic: [Subsets](Subsets.md)
+#### previous topic: [Grids](Grids.md) next topic: [Isosurface Ions](IsosurfaceIons.md)
